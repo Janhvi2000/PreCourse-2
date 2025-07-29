@@ -6,7 +6,7 @@
 # Quick sort is divide and conquer algorithm.
 # Using stack to simulate the recursive behavior, stack keeps track of the low and high index that needs sorting.
 # Pop low and high to get range of elements being sorted from stack, apply partition, and push left and right subarray index back to the stack if they need further sorting.
-# Whene stack empty, array is fully sorted.
+# Where stack empty, array is fully sorted.
 
 
 def partition(arr,low,high):
